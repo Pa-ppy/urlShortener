@@ -61,6 +61,7 @@ python3 manage.py migrate
 Start the Django development server:
 
 ```bash
+python3 manage.py makemigrations shortener
 python3 manage.py runserver
 ```
 
