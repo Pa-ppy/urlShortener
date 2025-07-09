@@ -96,6 +96,10 @@ To shorten a long URL, send a `POST` request to the `/api/shorten/` endpoint.
 
 ```bash
 curl -X POST -H "Content-Type: application/json" -d '{"original_url": "https://www.google.com"}' http://127.0.0.1:8000/api/shorten/
+
+curl -X POST -H "Content-Type: application/json" -d '{"original_url": "https://www.loom.com/looms/videos"}' http://127.0.0.1:8000/api/shorten/
+
+curl -X POST -H "Content-Type: application/json" -d '{"original_url": "https://en.wikipedia.org/wiki/Power_Rangers"}' http://127.0.0.1:8000/api/shorten/
 ```
 
 **Successful Response (example):**
