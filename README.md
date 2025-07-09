@@ -1,6 +1,6 @@
 # Django URL Shortener
 
-This is a simple backend URL shortener application built with Django and Django REST Framework.
+This is a backend URL shortener application built with Django and Django REST Framework.
 
 ## Features
 
@@ -53,7 +53,6 @@ pip install django djangorestframework
 Apply the database migrations to create the necessary tables:
 
 ```bash
-python3 manage.py makemigrations shortener
 python3 manage.py migrate
 ```
 
@@ -66,6 +65,14 @@ python3 manage.py runserver
 ```
 
 The server will typically run on `http://127.0.0.1:8000/`.
+
+## Running Tests
+
+To run the tests, run the following command:
+
+```bash
+python3 manage.py test shortener
+```
 
 ## API Usage
 
