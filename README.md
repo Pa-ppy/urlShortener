@@ -53,6 +53,8 @@ pip install django djangorestframework
 Apply the database migrations to create the necessary tables:
 
 ```bash
+python3 manage.py makemigrations shortener
+
 python3 manage.py migrate
 ```
 
@@ -61,7 +63,6 @@ python3 manage.py migrate
 Start the Django development server:
 
 ```bash
-python3 manage.py makemigrations shortener
 python3 manage.py runserver
 ```
 
